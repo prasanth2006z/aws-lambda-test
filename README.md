@@ -1,10 +1,10 @@
-= AWS Lambda Sample
+# AWS Lambda Sample
 
 This project contains a sample of an AWS Lambda function that performs a simple transfomration of MARC21-encoded files to MARC-In-JSON.
 
 The purpose of this project is to provide a means of estimating the cost of using AWS services to perform "burst-style" processing in order to get a sense of the cost-effectiveness of the approach.
 
-== How It Works
+## How It Works
 
 An AWS Lambda function is a single function call that can be invoked by a
 number of different triggers.  When the trigger is fired, AWS instantiates a
@@ -27,7 +27,7 @@ maintaining a shared index:
 A complete description of the setup in AWS for all of this is beyond the scope
 of this README.
 
-=== Building
+## Building
 
 The only requirement on the build system is a Java 8 JDK.  To build, invoke
 `./gradlew shadowJar` (or `./gradlew.bat shadowJar` on Windows); this will
